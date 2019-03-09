@@ -6,7 +6,7 @@ function search() {
     var audioFormats = ' (ac3|flac|m4a|mp3|ogg|wav|wma)';
     var imageFormats = ' (bmp|gif|jpg|png|psd|tif|tiff)';
     var archiveFormats = ' +(.rar|.tar|.7z|.zip|.si)';
-    var bookFormats = ' (pdf|epub|mob)';
+    var bookFormats = ' (pdf|epub|mob|azw3)';
     var inText = 'intext:"' + searchTerm + '"';
     
     if(document.getElementById("o1").checked){
